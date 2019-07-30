@@ -79,7 +79,8 @@ data_loader = CreateDataLoader(opt)
 dataset = data_loader.load_data()
 dataset_size = len(data_loader)
 
-opt.pahse = 'val'
+opt.pahse = 'val' 
+#opt.pahse = 'val'
 val_data_loader = CreateDataLoader(opt)
 val_dataset = val_data_loader.load_data()
 
